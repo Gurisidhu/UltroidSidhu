@@ -3,9 +3,9 @@ services:
   worker:
     build: .
     environment:
-      REDIS_URI: $REDIS_URI
-      REDIS_PASSWORD: $REDIS_PASSWORD
-      SESSION: $SESSION
+      REDIS_URI: redis-18203.c241.us-east-1-4.ec2.cloud.redislabs.com:18203
+      REDIS_PASSWORD: GzqsjNTpugv9DZvKchuQSwrlKevLG4yE
+      SESSION: 1BVtsOL8Bu5pSWCpFVEpOtj0sb7QnoLYgoKFR6ZPvNZ8OjEVkjyctQ5nO3g4gubtOOnjAun1WG2PU15ieh7aRaSo1nn97MEeQcZFpkm-8h_6lFGE_2n8hI7QMNVRojwbSZTHoTaYxxuj9cBcu4hPSNG8JRA986bgdtfEOGJZU0tncUj4XKecpRWX20LDpMSqJubzLdUqUuoFlLXL8nu3a60VQ8xUz4F3eTd5loEG0yXgmOlYa_64q9MGnrlodMhZOol7LzPg_nF6WComDdijwvA2Zop-OUI8pQaPTr4UGOT2gSZeaaqRdsZNsy11VhFPbiow-m33spS3msc_cTsITeM7XT8epvzg=
       API_ID: $API_ID  # defaults to None
       API_HASH: $API_HASH  # defaults to None
       MONGO_URI: $MONGO_URI  # defaults to None
