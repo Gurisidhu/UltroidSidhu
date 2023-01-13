@@ -16,21 +16,21 @@
     "env": {
         "API_ID": {
             "description": "You api id, from my.telegram.org or @ScrapperRoBot.",
-            "value": "", 
+            "value": "18734981", 
             "required": false
         },
         "API_HASH": {
             "description": "You api hash, from my.telegram.org or @ScrapperRoBot.",
-            "value": "",
+            "value": "0e88a144af021c41897a8e826eaf96aa",
             "required": false
         },
         "SESSION": {
             "description": "Session String (telethon or pyrogram) for your telegram user account. The userbot will NOT work without a session string!!",
-            "value": ""
+            "value": "1BVtsOL8Bu5pSWCpFVEpOtj0sb7QnoLYgoKFR6ZPvNZ8OjEVkjyctQ5nO3g4gubtOOnjAun1WG2PU15ieh7aRaSo1nn97MEeQcZFpkm-8h_6lFGE_2n8hI7QMNVRojwbSZTHoTaYxxuj9cBcu4hPSNG8JRA986bgdtfEOGJZU0tncUj4XKecpRWX20LDpMSqJubzLdUqUuoFlLXL8nu3a60VQ8xUz4F3eTd5loEG0yXgmOlYa_64q9MGnrlodMhZOol7LzPg_nF6WComDdijwvA2Zop-OUI8pQaPTr4UGOT2gSZeaaqRdsZNsy11VhFPbiow-m33spS3msc_cTsITeM7XT8epvzg="
         },
         "REDIS_URI": {
             "description": "Redis endpoint URL, from redislabs.com",
-            "value": ""
+            "value": "redis-18203.c241.us-east-1-4.ec2.cloud.redislabs.com:18203"
         },
         "REDIS_PASSWORD": {
             "description": "Redis endpoint password, from redislabs.com",
