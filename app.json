@@ -34,7 +34,7 @@
         },
         "REDIS_PASSWORD": {
             "description": "Redis endpoint password, from redislabs.com",
-            "value": ""
+            "value": "GzqsjNTpugv9DZvKchuQSwrlKevLG4yE"
         },
         "HEROKU_API": {
             "description": "Heroku API token. Mandatory for Heroku Deploy...",
